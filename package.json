@@ -1,0 +1,33 @@
+{
+  "name": "react-native-pulsate",
+  "version": "1.0.0",
+  "description": "Make pulse around things",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "test",
+    "build": "tsc",
+    "prepublish": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doumart/react-native-pulsate.git"
+  },
+  "keywords": [
+    "pulse",
+    "pulsate"
+  ],
+  "author": "Dominique Richard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/doumart/react-native-pulse/issues"
+  },
+  "homepage": "https://github.com/doumart/react-native-pulse#readme",
+  "devDependencies": {
+    "@types/react-native": "^0.63.18",
+    "typescript": "^4.0.2"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-native": "^0.63.2"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "lib": [
+      "es6"
+    ],
+    "moduleResolution": "node",
+    "target": "ES2019",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "baseUrl": "src",
+    "jsx": "react",
+    "declaration": true,
+    "outDir": "./lib",
+    "strict": true,
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/__tests__/*"
+  ]
+}
