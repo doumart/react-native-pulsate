@@ -1,6 +1,6 @@
 {
   "name": "react-native-pulsate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Make pulse around things",
   "main": "lib/index.js",
   "scripts": {
@@ -26,8 +26,8 @@
     "@types/react-native": "^0.63.18",
     "typescript": "^4.0.2"
   },
-  "dependencies": {
-    "react": "^16.13.1",
-    "react-native": "^0.63.2"
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
   }
 }
